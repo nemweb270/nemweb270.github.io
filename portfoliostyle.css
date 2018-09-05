@@ -22,7 +22,7 @@ h3 {
 .top {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 250px;
   background: rgb(50, 50, 50);
   background: url("gen43.png");
   background-position: center;
@@ -30,7 +30,7 @@ h3 {
     background-size: cover;
   overflow: hidden;
   background-color: white;
-  padding: 30px;
+  
 }
 
 
