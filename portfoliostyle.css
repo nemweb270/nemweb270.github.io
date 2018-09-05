@@ -168,9 +168,15 @@ h3 {
   width: 20%;
 }
 
-.sectionone{
+.secone{
   padding: 30px;
-  background-color:#3885ea;
+  background-color: #3885ea;
+  
+}
+
+.sectwo{
+  padding: 30px;
+  background-color:  #ffe877;
   
 }
 
