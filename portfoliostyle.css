@@ -81,6 +81,7 @@ h3 {
   overflow: hidden;
   background-color:  #ffe877;
   font-family: 'Nanum Gothic', sans-serif;
+  height: 200px;
 }
 
 .navbar a {
@@ -90,7 +91,7 @@ h3 {
   text-align: center;
   padding: 20px 22px;
   text-decoration: none;
-
+height: 200px;
 }
 
 
