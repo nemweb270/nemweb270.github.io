@@ -168,6 +168,12 @@ h3 {
   width: 20%;
 }
 
+.sectionone{
+  padding: 30px
+  color:#3885ea;
+  
+}
+
 @media screen and (max-width:1099px){
   #container{
     width:100%;
