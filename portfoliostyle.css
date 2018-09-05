@@ -1,7 +1,4 @@
-#container{
-  
-  height: 250px;
-}
+
 body {
   margin: 0;
   padding: 0;
@@ -91,7 +88,7 @@ h3 {
   font-size: 16px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 22px;
   text-decoration: none;
 
 }
