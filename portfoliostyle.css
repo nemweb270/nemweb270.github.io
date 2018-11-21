@@ -2,7 +2,7 @@
 body {
   margin-left: 360px; /* Same as the width of the sidenav */
   
-    padding: 0px 10px;
+    
   background: white;
   color: white;
 }
@@ -18,7 +18,7 @@ h3 {
   font-size: 200%;
   font-family: 'Michroma', sans-serif;
   letter-spacing: 1px;
-  text-shadow: 2px 2px 2px #ffffff;
+  text-shadow: 2px 2px 2px black;
   color: #7c7777;
 }
 
