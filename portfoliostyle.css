@@ -90,12 +90,11 @@ h3 {
 }
 
 .navbar a {
-  float: right;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 20px 22px;
-  text-decoration: none;
+   padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
 
 }
 
