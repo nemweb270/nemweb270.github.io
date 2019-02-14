@@ -1,5 +1,12 @@
 
+.main {
+    margin-left: 260px; /* Same as the width of the sidenav */
+  width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 
+}
 h3 {
   text-align: center;
   font-size: 200%;
