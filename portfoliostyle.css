@@ -43,6 +43,20 @@ h3 {
 }
 
 
+.content-wrapper {
+
+
+  padding: 1em 10%;
+  background-color:  white;
+}
+
+.content-wrapper h1 {
+  margin: 0;
+  color: #af4458;
+  font-family: 'Michroma', sans-serif;
+   padding: 1em 10%;
+}
+
 
 
 .content-wrapper p {
