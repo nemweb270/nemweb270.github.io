@@ -1,18 +1,16 @@
 
 body {
-  margin-left: 320px; /* Same as the width of the sidenav */
-  
-    
+   margin-left: 260px; /* Same as the width of the sidenav */
+  width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
   background: white;
   color: white;
 }
 
 .main {
-    margin-left: 260px; /* Same as the width of the sidenav */
-  width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+  
 
 }
 
