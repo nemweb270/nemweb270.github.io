@@ -73,6 +73,7 @@ h3 {
   display: block;
   width: 260px;
   overflow: hidden;
+  float:left;
 }
 
 .navbar a {
