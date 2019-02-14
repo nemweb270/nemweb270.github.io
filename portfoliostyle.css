@@ -54,14 +54,13 @@ h3 {
   margin: 0;
   color: #af4458;
   font-family: 'Michroma', sans-serif;
-   padding: 1em 10%;
 }
 
 
 
 .content-wrapper p {
   font-family: 'Michroma', sans-serif;
-  text-indent: 1em;
+  text-indent: 1.5em;
   color: #3f3d3d;
 }
 
@@ -166,6 +165,9 @@ h3 {
   margin-right: auto;
   width: 20%;
 }
+
+
+
 
 @media screen and (max-width:1099px){
   #container{
