@@ -144,6 +144,15 @@ h3 {
 }
 
 
+ #church {
+      background-image: url(churchSite.png);
+      background-repeat: no-repeat;
+      width: 100%;
+     height: 50%;
+     
+     
+   }
+
 
 
 
