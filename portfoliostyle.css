@@ -92,6 +92,7 @@ h3 {
    display: none;
   position: absolute;
   background-image: url(workBlob.png);
+  background-size: 120px 80px;
   
 }
 
