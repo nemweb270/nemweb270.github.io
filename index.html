@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Nemweb270</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#"><img class = "logo" src="logo.png" ></img></a>
+            
+</div>
+<ul class="nav-links">
+    
+    
+    <li><a href="#work">Work</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="resume.pdf"target="_blank">Resume</a></li>
+</ul>
+<div class="burger">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+</div>
+
+    </nav>
+    <script src="main.js"></script>
+    <a href="#work">
+    <div class = "hero">
+            
+        </div> 
+    </a>
+   
+    <section data-scroll>
+            
+    <div class = "work" id = "work"></div>
+        <br><br><br>
+        
+        <img data-scroll src="recent.png" class="centerb" ></img>
+       
+        <br>
+    
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+           
+            <img src="webDance.png" style="width:100%">
+            <div class="text">
+                <h2>Web Design</h2><br>
+                Designed a website for a cultural dance 
+                troupe using HTML, CSS and Bootstrap. <br><br>
+                <a href="http://sfgkolo.com/" target="_blank"> <div class="btn" > View </div></a>
+                
+                </div>
+          </div>
+          <div class="mySlides fade">
+         
+            <img src="webFest.png" style="width:100%">
+            <div class="text">
+                    <h2>Project Management</h2><br>
+                    Worked with a team to edit and update 
+                    an existing website for an outdoor festival.
+                     <br><br>
+                     <a href="https://serbianfest.svetistefan.ca/" target="_blank"> <div class="btn" > View </div></a>
+            </div>
+          </div>
+ 
+          <div class="mySlides fade">
+         
+                <img src="webChurch.png" style="width:100%">
+                <div class="text">
+                        <h2>Web Design</h2><br>
+                        Designed a website for a church 
+                        in Ottawa using HTML, CSS and Wordpress. 
+                         <br><br>
+                         <a href="http://www.svetistefan.ca/" target="_blank"> <div class="btn" > View </div></a>
+                </div>
+              </div>
+
+              <div class="mySlides fade">
+         
+                    <img src="webCheeze.png" style="width:100%">
+                    <div class="text">
+                            <h2>Animation</h2><br>
+                            Co-directed / animated a Youtube cartoon using
+                            Adobe After Effects. 
+                             <br><br>
+                             <a href="https://www.youtube.com/watch?v=b8x9eN-hTtA" target="_blank"> <div class="btn" > View </div></a>
+                    </div>
+                  </div>
+
+                  <div class="mySlides fade">
+         
+                        <img src="webSticker.png" style="width:100%">
+                        <div class="text">
+                                <h2>Graphic Design</h2><br>
+                                Designed a logo for a successful Youtube channel. 
+                                 <br><br>
+                                <a href="https://www.youtube.com/channel/UCaqlKhxoC-oNn0U3-Qp4T-A" target="_blank"> <div class="btn" > View </div></a>
+                        </div>
+                      </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
+          
+    </section>
+
+<section data-scroll>
+    
+        <div  class = "about" id = "about"></div>
+   
+        <br>
+        
+        <br>
+        <section class ="containerb">
+        <div class = "item1">
+        
+    </div>
+    <div class = "item2">
+            <img data-scroll src="aboutTitle.png" class="centerb" style="width:40vw;"></img>
+         Hello, my name is Nemanja "Nem" Gostimirovic and I am a web designer
+            from Ottawa, Ontario, Canada. I graduated from the Internet Applications and
+            Web Development program at Algonquin College and am currently pursuing my
+            passion in web design. From front / back-end development and database design, to
+            funky graphics and animations, I can use different techniques to develop a unique
+            and inspired web presence for anyone I work with. I love to collaborate and to
+            learn new things. If you are interested in getting in touch with me,
+            please send me an e-mail at <a href="mailto:nemweb270@gmail.com">nemweb270@gmail.com</a>, I would love to hear from you!
+    
+        
+    </div>
+    
+</section>
+</section>
+<br><br>
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+    </script>
+   
+    <script>
+    
+    import ScrollOut from "scroll-out";
+
+ScrollOut({
+  /* options */
+});
+    </script>
+
+<script>
+        ScrollOut();
+      </script>
+      </body>
+
+    
+
+</html>
